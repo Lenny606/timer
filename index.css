@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ipt {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 10px 10px;
+  width: 50px;
+  height: 30px;
+  font-size: 10px;
+}
+
+#currentTime {
+  margin: 10px;
+  color: green;
+}

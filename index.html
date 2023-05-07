@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./indexOOP.js" defer></script>
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Timer</h1>
+        <div class="ipt">
+            <input id="inputh" type="number" placeholder="hour">
+            <input id="inputm" type="number" placeholder="minute">
+            <input id="inputs" type="number" placeholder="second">
+        </div>
+        <div class="btn">
+            <button id="btn-start" onclick="startCounting()">Start</button>
+            <button id="btn-pause" onclick="pauseCounting()">Pause</button>
+            <button id="btn-stop" onclick="endCounting()">Stop</button>
+        </div>
+        <p id="currentTime">current time: </p>
+    </div>
+</body>
+
+</html>
